@@ -1,0 +1,28 @@
+{
+  "image": {
+    "width": 1024,
+    "height": 683
+  },
+  "detections": [
+    {
+      "class": "Spallingw",
+      "confidence": 0.9678587317466736,
+      "boundingBox": {
+        "left": 101.068603515625,
+        "top": 98.72029876708984,
+        "right": 499.5029296875,
+        "bottom": 403.3067932128906
+      }
+    },
+    {
+      "class": "Spallingw",
+      "confidence": 0.44207385182380676,
+      "boundingBox": {
+        "left": 303.7029724121094,
+        "top": 445.7657775878906,
+        "right": 801.4064331054688,
+        "bottom": 623.8488159179688
+      }
+    }
+  ]
+}
