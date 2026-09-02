@@ -28,6 +28,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This app uses the camera to capture photos for offline on-device object detection.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses the microphone to record your spoken description for offline on-device voice transcription.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app accesses your photo library so you can select images for offline on-device object detection.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

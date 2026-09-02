@@ -31,6 +31,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/android/build/
 /coverage/
 pubspec.lock
 
@@ -46,3 +47,7 @@ app.*.map.json
 /android/app/release
 
 /ios/Podfile.lock
+
+# Local LLM GGUF cache: too large to check in (~1GB+). The app downloads
+# this at runtime via ModelProvisioningService instead of bundling it.
+/models_cache/

@@ -9,6 +9,15 @@ No network calls are made anywhere in the detection path — the `.onnx`
 model and its `model_info.json` metadata are bundled as Flutter assets and
 loaded from disk at startup.
 
+## Offline AI report feature
+
+Past a detection, **Create Report** opens a small report form that can be
+filled by typed text or a voice command, routed through deterministic
+rules or an on-device Qwen3 1.7B LLM, and validated against controlled
+value lists before it touches the form — see
+[`docs/OFFLINE_AI_IMPLEMENTATION.md`](docs/OFFLINE_AI_IMPLEMENTATION.md)
+for the full architecture, package choices, and known limitations.
+
 ## Project layout
 
 ```

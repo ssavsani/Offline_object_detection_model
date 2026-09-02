@@ -5,6 +5,11 @@
     <!-- Gallery access on Android 12 and below; API 33+ uses the system photo
          picker via image_picker, which needs no runtime permission. -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <!-- Voice command recording (AudioRecorderService / whisper_ggml transcription). -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- One-time, explicit local model downloads only (VlmModelProvisioningService).
+         Inference itself is fully offline; see docs/OFFLINE_AI_IMPLEMENTATION.md. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:label="rfdetr_object_detection"

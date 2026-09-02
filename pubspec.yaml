@@ -37,6 +37,12 @@ dependencies:
   onnxruntime: ^1.4.1
   image_picker: ^1.2.3
   image: ^4.9.2
+  whisper_ggml: ^2.6.0
+  record: ^7.1.1
+  path_provider: ^2.1.6
+  http: ^1.6.0
+  lib_llama_cpp: ^0.7.3
+  lib_llama_cpp_platform_interface: ^0.7.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -62,6 +68,7 @@ flutter:
   assets:
     - assets/models/rfdetr-nano.onnx
     - assets/models/model_info.json
+    - assets/models/whisper/ggml-base.en-q5_1.bin
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
